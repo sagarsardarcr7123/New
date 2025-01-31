@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Marketing</title>
+    <style>
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #595757;
+    padding-left: 10px;
+    position: fixed; 
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+.navbar .brand {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #f7c948;
+}
+
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar nav ul li {
+    margin-left: 20px;
+    padding: 20px;
+    margin-bottom: auto;
+    
+}
+
+.navbar nav ul li a {
+    display: flex;
+    justify-content: center;
+    color: aqua;
+    font-size: 1.5em;
+    align-items: center;
+    overflow: hidden;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    margin: 10 -35px; 
+}
+
+
+.navbar nav ul li a:hover {
+    color: #f7c948;
+}
+
+.hero {
+    background-color: #f7c948;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.hero h1 {
+    margin-bottom: 0.5em;
+    font-size: 2.5em;
+}
+.hero p{
+    text-align: center;
+    font-size: 23px;
+}
+
+.about {
+    padding: 2em;
+    text-align: center;
+}
+
+.about h2 {
+    margin-top: 1.5em;
+    text-align: center;
+    margin-top: 10px ;
+    font-size: 30px;
+}
+
+.about p{
+    text-align: left;
+    font-size: 23px;
+}
+
+.services {
+    padding: 2em;
+    text-align: center;
+}
+
+.services h2 {
+    margin-bottom: 1em;
+}
+
+.service {
+    margin: 1.5em 0;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 1.5em;
+}
+
+.testimonials {
+    padding: 2em;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.testimonials h2 {
+    margin-bottom: 1em;
+}
+
+blockquote {
+    font-style: italic;
+    margin: 1em 0;
+}
+blockquote p{
+    text-align: left;
+}
+blockquote cite{
+    text-align: right;
+    padding-right: 55px;
+}
+
+cite {
+    display: block;
+    margin-top: 0.5em;
+    font-weight: bold;
+}
+
+.cta {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+
+footer {
+    background-color: #1a2b4c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+    margin-top: auto;
+} 
+
+    </style>
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="brand"><a href="Login Page.html">Marketing</a></div>
+        <nav>
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="services.html">Service</a></li>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="contact us.html">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to Marketing</h1>
+        <p>Your partner in digital marketing success.</p>
+    </section>
+
+    <section class="about">
+        <h2>Who We Are</h2>
+        <p>Marketing is a leading digital marketing agency dedicated to helping businesses of all sizes enhance their online presence and achieve measurable results. Our team of experienced professionals uses innovative strategies tailored to your specific needs.</p>
+        <p>With a focus on results-driven solutions, we pride ourselves on our commitment to excellence and client satisfaction.</p>
+    </section>
+
+    <section class="services">
+        <h2>What We Offer</h2>
+        <div class="service">
+            <h3>SEO Optimization</h3>
+            <p>Our SEO experts will optimize your website to improve your search engine rankings and drive organic traffic.</p>
+        </div>
+        <div class="service">
+            <h3>Content Marketing</h3>
+            <p>We create engaging content that resonates with your target audience and boosts brand awareness.</p>
+        </div>
+        <div class="service">
+            <h3>Social Media Management</h3>
+            <p>Let us manage your social media presence and engage with your audience effectively.</p>
+        </div>
+        <div class="service">
+            <h3>Email Marketing</h3>
+            <p>Our tailored email campaigns will help you connect with customers and drive conversions.</p>
+        </div>
+        <div class="service">
+            <h3>PPC Advertising</h3>
+            <p>Maximize your ROI with targeted pay-per-click advertising strategies that bring immediate results.</p>
+        </div>
+        <div class="service">
+            <h3>Web Development</h3>
+            <p>Get a stunning website designed to meet your business goals and provide a seamless user experience.</p>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>What Our Clients Say</h2>
+        <blockquote>
+            <p>"MarketingCo transformed our online presence and helped us reach new customers. Their team is professional and dedicated!"</p>
+            <cite>- Sarah Johnson, CEO of Tech Innovations</cite>
+        </blockquote>
+        <blockquote>
+            <p>"The SEO services provided by MarketingCo significantly improved our website traffic and visibility. Highly recommend!"</p>
+            <cite>- David Lee, Owner of Green Solutions</cite>
+        </blockquote>
+    </section>
+
+    <section class="cta">
+        <h2>Ready to Elevate Your Business?</h2>
+        <p>Contact us today to learn how we can help you achieve your marketing goals!</p>
+    </section>
+
+    <footer>
+        <i>&copy; 2024 Marketing Webpage. Designed by Gour Sardar.</i>
+    </footer>
+</body>
+</html>
